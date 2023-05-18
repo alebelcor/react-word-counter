@@ -18,7 +18,7 @@ export default function Home() {
           const content = event.target.value ?? '';
 
           setContent(content);
-          setWordCount(content.replace(/[.,;:\-–—\/]/g, ' ').split(' ').filter(Boolean).length)
+          setWordCount(content.replace(/[.,;:\-–—%\/0-9]/g, ' ').split(' ').filter(Boolean).length)
         }}
       />
 
