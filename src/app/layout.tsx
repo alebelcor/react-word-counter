@@ -10,7 +10,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html className="h-full" lang="en">
       <body>{children}</body>
     </html>
   )

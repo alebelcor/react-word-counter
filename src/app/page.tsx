@@ -11,7 +11,7 @@ export default function Home() {
       <h1 className="text-2xl font-semibold text-center">Word Counter</h1>
 
       <textarea
-        className="p-4 w-full max-w-4xl resize-y border border-black text-black "
+        className="p-4 w-full max-w-4xl resize-y border border-black rounded-lg text-black "
         name="text"
         value={content}
         onChange={(event) => {
