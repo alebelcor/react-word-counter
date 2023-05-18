@@ -2,6 +2,8 @@
 
 >Word counter. An application to count words. Count how many words there are in a text
 
+[Demo site](https://react-word-counter.pages.dev)
+
 ## Requirements
 
 * [Node.js](https://nodejs.org/) 16+
